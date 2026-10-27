@@ -1,0 +1,76 @@
+{
+  "config": {
+    "base_model": "Qwen/Qwen3.5-0.8B",
+    "revision": "2fc06364715b967f1860aea9cf38778875588b17",
+    "seed": 42,
+    "num_train_epochs": 5,
+    "warmup_steps": 6,
+    "lr": 0.0002,
+    "lora_r": 16,
+    "lora_alpha": 32,
+    "max_seq_len": 512,
+    "max_new_tokens": 96,
+    "gen": {
+      "do_sample": false
+    }
+  },
+  "versions": {
+    "transformers": "5.18.0",
+    "peft": "0.21.1",
+    "trl": "1.14.2",
+    "torch": "2.11.0+cu130"
+  },
+  "method": "LoRA（量子化なし）",
+  "before": {
+    "label": "before",
+    "n": 21,
+    "format_rate": 0.14285714285714285,
+    "content_rate": 0.0,
+    "both_rate": 0.0,
+    "seconds": 19.5
+  },
+  "after": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.47619047619047616,
+    "both_rate": 0.47619047619047616,
+    "seconds": 52.9
+  },
+  "regressed": [],
+  "knowledge": [
+    {
+      "質問": "このホテルの宿泊料金はいくらですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"1000円\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。宿泊料金は1泊1000円で利用できます。\", \"needs_review\": false}"
+    },
+    {
+      "質問": "ホテルの最寄り駅はどこですか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"確認が必要\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"FAQには記載がありません。宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "客室にはどのようなアメニティがありますか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"確認が必要\"}",
+      "学習後の分類": "needs_review",
+      "学習後の出力": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。アメニティについてはFAQに記載がありませんが、宿泊料金の1000円で宿泊できる駐車場があります。\", \"needs_review\": true}"
+    },
+    {
+      "質問": "チェックインは何時からできますか",
+      "FAQ にある": false,
+      "学習前の分類": "format_error",
+      "学習前の出力": "{\"answer\": \"15:00\"}",
+      "学習後の分類": "asserted",
+      "学習後の出力": "{\"answer\": \"チェックインは15:00から可能です。\", \"needs_review\": false}"
+    }
+  ],
+  "executed_training_myself": true
+}

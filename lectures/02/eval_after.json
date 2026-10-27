@@ -1,0 +1,201 @@
+{
+  "summary": {
+    "label": "after",
+    "n": 21,
+    "format_rate": 1.0,
+    "content_rate": 0.47619047619047616,
+    "both_rate": 0.47619047619047616,
+    "seconds": 52.9
+  },
+  "rows": [
+    {
+      "question": "ホテルには何時からチェックインできますか？",
+      "raw": "{\"answer\": \"チェックインは15:00から可能です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊当日は何時からチェックインできますか",
+      "raw": "{\"answer\": \"宿泊日の当日はチェックインできません。チェックインは1泊1000円で宿泊日の前日までのキャンセルには無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "客室への入室が可能になる時刻を教えてください",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ホテルを出ないといけない時間は？",
+      "raw": "{\"answer\": \"ホテルは1泊1000円で駐車場を利用できますが、宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊翌日は何時までにチェックアウトする必要がありますか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。宿泊日は指定日付で、宿泊日の翌日までにチェックアウトが必要です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "チェックアウトの最終時刻を教えてください",
+      "raw": "{\"answer\": \"チェックアウトは11:00までです。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "朝食会場はどこですか",
+      "raw": "{\"answer\": \"朝食は7:00〜10:00に、1階のレストランで提供しています。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "朝食を食べられる時間帯と場所を教えてください",
+      "raw": "{\"answer\": \"朝食は7:00〜10:00に、1階のレストランで提供しています。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ホテルの朝食はどこで何時から何時まで提供されていますか",
+      "raw": "{\"answer\": \"朝食は1階のレストランで、7:00〜10:00に提供しています。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊者の駐車場利用料金を教えてください",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。宿泊者はホテルの駐車場を1泊1000円で利用できます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊者が車で1泊駐車する場合の料金いくらですか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。宿泊者はホテルの駐車場を1泊1000円で利用できます。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "ホテルの駐車場を利用する際の費用を教えてください",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊予約のキャンセル規定を教えてください",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊予約を無料でキャンセルできるのはいつまでですか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "宿泊当日に予約を取り消した場合のキャンセル料はいくらですか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": true,
+      "both_ok": true,
+      "gold_needs_review": false
+    },
+    {
+      "question": "チェックアウトの延長はできますか",
+      "raw": "{\"answer\": \"チェックアウトは11:00までです。延長はできません。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "最寄駅から送迎バスはありますか",
+      "raw": "{\"answer\": \"FAQには記載がありません。宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ホテルの客室には冷蔵庫が設置されていますか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。冷蔵庫は設置されていません。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "チェックイン前に荷物を預けることはできますか",
+      "raw": "{\"answer\": \"チェックイン前に荷物を預けることはできません。宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": true}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "ホテル内にコインランドリーはありますか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    },
+    {
+      "question": "宿泊料金に朝食代は含まれていますか",
+      "raw": "{\"answer\": \"宿泊日の前日までのキャンセルは無料で、当日のキャンセルには宿泊料金の100%が発生します。朝食は1泊1000円で宿泊料金の外です。\", \"needs_review\": false}",
+      "format_ok": true,
+      "format_reason": "",
+      "content_ok": false,
+      "both_ok": false,
+      "gold_needs_review": true
+    }
+  ]
+}
